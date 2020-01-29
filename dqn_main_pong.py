@@ -1,6 +1,6 @@
 import numpy as np
-from dqn_keras import Agent
-from utils import plotLearning, make_env
+from dqn_keras_pong import Agent
+from utils_pong import plotLearning, make_env
 
 if __name__ == '__main__':
     env = make_env('PongNoFrameskip-v4')
